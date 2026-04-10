@@ -1,5 +1,5 @@
 {
-  "name": "template_repo",
+  "name": "accesscheck",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@ducanh2912/next-pwa": "^10.2.9",
+    "@supabase/ssr": "^0.10.2",
+    "@supabase/supabase-js": "^2.103.0",
+    "dexie": "^4.4.2",
     "next": "16.2.1",
+    "next-intl": "^4.9.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
